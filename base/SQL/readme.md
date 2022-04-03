@@ -13,14 +13,14 @@ SQL
 |-----|----------------------------|----------------------------|
 | DDL | Data Definition Language   | 数据定义语句，用来定义数据库对象（数据库，表，字段） |
 | DML | Data Manipulation Language | 数据操作语言，用来对数据库表中数据进行增删改     |
-| DQL | Dtat Query Language        | 数据查询语言，用来查询数据库中表的记录        |
+| DQL | Data Query Language        | 数据查询语言，用来查询数据库中表的记录        |
 | DCL | Data Control Language      | 数据控制语言，用来创建数据库用户、控制数据库访问权限 |
 ## DDL
 数据定义语句，用来定义数据库对象（数据库、表、字段）
 ## DML
 数据操作语言，用来对数据库表中数据进行增删改操作
 ## DQL
-
+数据查询语言，用来查询数据库中表的记录
 ## DCL
 
 
