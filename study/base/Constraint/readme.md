@@ -51,7 +51,7 @@ CREATE TABLE 表名(
 | RESTRICT    | 当在父表中删除/更新对应记录时，首先检查该记录是否有对应外键，如果有则不允许删除/更新（与NO ACTION一致）      |
 | CASCADE     | 当在父表中删除/更新对应记录时，首先检查该记录是否有对应外键，如果有，则也删除/更新外键在子表中的记录            |
 | SET NULL    | 当在父表中删除对应记录时，首先检查该记录是否有对应外键，如果有则设置子表中该外键值为null（这就要求该外键允许取null） |
-| SET DEFAULT | 父表有变更时，子表将外键设置成员工默认值（Innodb不支持）                                |
+| SET DEFAULT | 父表有变更时，子表将外键设置成一个默认值（Innodb不支持）                                |
 使用语句示例：`ALTER TABLE 表名 ADD CONSTRAINT 外键名称 FOREIGN KEY (外键字段) REFERENCES 主表名(主表字段名) ON UPDATE CASCADE ON DELETE CASCADE;`
 
 
