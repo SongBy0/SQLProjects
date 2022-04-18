@@ -8,8 +8,13 @@ SQL进阶知识
 
 ## 3 SQL优化
 
-## 4 视图/存储过程/触发器
+## 4 ViewStoredProcedureTrigger 
+视图/存储过程/触发器
 
+- 视图
+- 存储过程
+- 存储函数
+- 触发器
 ## 5 锁
 
 ## 6 InnoDB核心
